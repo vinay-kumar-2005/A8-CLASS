@@ -29,7 +29,7 @@
         border: 1px soLID navy;
         color: #000000;
         font-family: 'poppins',sans-serif;
-           text-align: center;
+          
       }
       .bg-1 {
         background-color: #55d60e;
@@ -48,6 +48,7 @@
         margin: 1PX;
         padding: 3PX;
         width: 100%;
+           text-align: center;
   
         border: 1px solid #000000;
         border-radius: 10px;

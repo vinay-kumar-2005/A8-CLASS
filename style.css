@@ -4,11 +4,31 @@
     font-family: 'poppins',sans-serif
     
   }
+
   
  
   * ::after, ::before {
     box-sizing: border-box;
   }
+.BOX-STYLE{
+  background-color: #150868;
+  color: #ffffff;
+  padding: 180PX;
+  width: 200PX;
+  height: 100PX;
+  padding-top: 50px;
+  padding-left: 50px;
+  
+ margin: 100PX;
+ margin-right: 300px;
+ transition: 1S;
+}
+
+  .BOX-STYLE:hover{
+    transform: rotatey(360deg);
+    transition: 10s;
+  }
+
 
   body {
     font-family: var(--bs-font-sans-serif);

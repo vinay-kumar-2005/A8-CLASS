@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif
+    
+  }
+  
+ 
+  * ::after, ::before {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    -webkit-text-size-adjust: 100%;
+}
+    
+    table {
+        border-collapse: collapse;
+      }
+      
+      table tr th,
+      table tr td {
+        border: 1px soLID navy;
+        color: #000000;
+        font-family: 'poppins',sans-serif;
+      }
+      .bg-1 {
+        background-color: #55d60e;
+        padding-left: 100px;
+      }
+      
+      .bg-1 h1,
+      .bg-2 h1,
+      .A1 h1,
+      .bg-3 h1 {
+        color: #fff;
+        text-align: center;
+        font-size: 100px;
+      }
+      .TEXT-1{
+        margin: 1PX;
+        padding: 3PX;
+        width: 100%;
+  
+        border: 1px solid #000000;
+        border-radius: 10px;
+        overflow: hidden;
+        border: none;
+  box-shadow: 0px 3px 10pX #060606;
+      }
+      
+      .TEXT-1{
+        margin-top: 10PX;
+        color: #000000  ;
+  text-shadow: 0px 3px 10px #060606;
+      }
+
+      .box {
+  width: 100%;
+  
+  border: 1px solid #000000;
+  border-radius: 10px;
+  overflow: hidden;
+  border: none;
+  
+}
+ul li {
+  list-style:none;
+}
+ .box-:hover:hover {
+  border: none;
+  box-shadow: 0px 3px 10pX #060606;
+}
+.box:hover .box-img img {
+  width: 110px;
+  color: black;
+}
+.box:hover .box-content h4 {
+  color: #000000  ;
+  text-shadow: 0px 3px 10px #060606;
+}
+.box-image {
+  height: 250px;
+  overflow: hidden;
+}
+.box-content {
+  color: #000000;
+}
+.navbar {
+  background-color: rgb(35, 6, 63);
+
+ 
+}
+.box-2:hover:hover {
+  border: none;
+  box-shadow: 0px 3px 10pX #060606;
+}
+.box-2:hover .box-img img {
+  width: 110px;
+  color: black;
+}
+.box-2:hover .box-content h4 {
+  color: #000000  ;
+  text-shadow: 0px 3px 10px #060606;
+}
+.box-2-image {
+  height: 250px;
+  overflow: hidden;
+}
+.box-2-content {
+  color: #000000;
+}
+.fixed-top {
+  position: relative;
+  top: auto;/* Auto position navbar top */
+}
+
+.navbar {
+  background-color: antiquewhite;
+ 
+ 
+}

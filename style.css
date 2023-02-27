@@ -21,7 +21,7 @@
     
     table {
         border-collapse: collapse;
-         text-align: center;
+         
       }
       
       table tr th,
@@ -29,6 +29,7 @@
         border: 1px soLID navy;
         color: #000000;
         font-family: 'poppins',sans-serif;
+           text-align: center;
       }
       .bg-1 {
         background-color: #55d60e;

@@ -4,13 +4,11 @@
     font-family: 'poppins',sans-serif
     
   }
-
   
  
   * ::after, ::before {
     box-sizing: border-box;
   }
-
 
   body {
     font-family: var(--bs-font-sans-serif);
@@ -23,18 +21,16 @@
     
     table {
         border-collapse: collapse;
-         margin-left: 10px;
-        margin-top: 20px;
-        border-radius: 20px;
-         
+        margin-left: 10px;
+        margin-top: 10px;
+        border-radius: 10px;
       }
-      
+     
       table tr th,
       table tr td {
         border: 1px soLID navy;
         color: #000000;
         font-family: 'poppins',sans-serif;
-          
       }
       .bg-1 {
         background-color: #55d60e;
@@ -53,7 +49,6 @@
         margin: 1PX;
         padding: 3PX;
         width: 100%;
-        text-align: center;
   
         border: 1px solid #000000;
         border-radius: 10px;
@@ -129,21 +124,35 @@ ul li {
 }
 
 .navbar {
-  background-color: antiquewhite;
- 
- 
+  background-color: rgb(25, 7, 60);
+  color: #ffffff;
+  color: #ffffff;
+
+
+}
+.navbar-nav{
+  color: #ffffff;
+
+}
+.nav-item .nav-link  {
+  color: #fff;
+}
+.carousel-item{
+ margin-top: 100px;
 }
 .BOX-STYLE{
   background-color: #150868;
-  color:#150868;
+  color: #ffffff;
   padding: 180PX;
-  width: 200PX;
+  width: 250PX;
   height: 100PX;
   padding-top: 50px;
-  padding-left: 50px;
+  margin-top: 250px;
+  padding-left: 20px;
+  padding-right: 20PX;
   
- margin: 100PX;
- margin-right: 300px;
+ margin: 50PX;
+ margin-right: 200px;
  transition: 1S;
 }
 
@@ -151,4 +160,3 @@ ul li {
     transform: rotatey(360deg);
     transition: 10s;
   }
-
